@@ -1,5 +1,5 @@
 # Breach Compilation Web Service in Python (breachcomp_ws)
-A simple Web Service in Python with Flask to serve requests for emails and passwords leaked (BreachCompilation).
+A simple Web Service in Python with Flask to serve requests for emails and passwords leaked on BreachCompilation.
 
 ## Getting Started
 
