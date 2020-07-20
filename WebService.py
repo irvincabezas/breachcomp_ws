@@ -29,7 +29,7 @@ class Person(Resource):
     def get(self, email):
         users.clear()
         for line in runProcess(f'bash ./query.sh {email}'.split()):
-            if line and line not in data:
+            if line and line not in users:
                 line = str(line.decode("utf-8").rstrip(os.linesep)) #remove newline from each line prior manipulation
                 user = {'email': line.split(':')[0], 'password': line.split(':')[1]}
                 users.append(user)
