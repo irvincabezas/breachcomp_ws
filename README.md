@@ -41,7 +41,7 @@ STEP 3:
 - Fire up Anaconda, select the correct virtual environment and then open Spyder. 
 - Clone the repository
 ```
-git clone https://github.com/icabezasm/ctescheduling.git
+git clone https://github.com/irvincabezas/breachcomp_ws.git
 ```
 - On Spyder move where the github project was downloaded
 
